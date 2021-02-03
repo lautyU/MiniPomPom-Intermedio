@@ -1,0 +1,22 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:61979",
+      "sslPort": 44357
+    }
+  },
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "ms_security_token": {
+      "commandName": "Project",
+      "launchUrl": "api/Account/Create",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "llave_secreta": "SecretKeywqewqeqqqqqqqqqqqweeeeeeeeeeeeeeeeeeeqweqe",
+        "applicationUrl": "https://localhost:5001;http://localhost:5000"
+      }
+    }
+  }
+} 

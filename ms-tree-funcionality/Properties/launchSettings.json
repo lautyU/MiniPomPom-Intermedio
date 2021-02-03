@@ -1,0 +1,22 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:62514",
+      "sslPort": 44375
+    }
+  },
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "ms_tree_funcionality": {
+      "commandName": "Project",
+      "launchUrl": "api/basic/list",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "JsonDocument": "Jsons\\Databasic.json",
+        "applicationUrl": "https://localhost:6001;http://localhost:6000"
+      }
+    }
+  }
+}

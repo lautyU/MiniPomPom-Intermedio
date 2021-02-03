@@ -1,0 +1,58 @@
+{
+  "data": {
+    "channel": "sucursal",
+    "method": "GET",
+    "path": "minipompom/jwt/list",
+    "availability": {
+      "business_hours": {
+        "includes_holidays": true,
+        "includes": [
+          {
+            "weekday": "Monday",
+            "from_hour": "00:00",
+            "to_hour": "18:00"
+          },
+          {
+            "weekday": "Tuesday",
+            "from_hour": "00:00",
+            "to_hour": "18:00"
+          },
+          {
+            "weekday": "Wednesday",
+            "from_hour": "00:00",
+            "to_hour": "18:00"
+          },
+          {
+            "weekday": "Thursday",
+            "from_hour": "00:00",
+            "to_hour": "18:00"
+          },
+          {
+            "weekday": "Friday",
+            "from_hour": "00:00",
+            "to_hour": "18:00"
+          },
+          {
+            "weekday": "Saturday",
+            "from_hour": "00:00",
+            "to_hour": "18:00"
+          },
+          {
+            "weekday": "Sunday",
+            "from_hour": "00:00",
+            "to_hour": "18:00"
+          }
+        ],
+        "message": {
+          "title": "",
+          "detail": null
+        }
+      }
+    },
+    "config": {
+      "security": {
+        "scope_level": "jwt"
+      }
+    }
+  }
+}
